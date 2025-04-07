@@ -65,6 +65,17 @@ public class Адаптируемый
     public void Чтение_сохранение_папки_txt()
     {
         Log.Warning("Работает метод Чтение_сохранение_папки_txt()");
+        
+        if (!Directory.Exists("text_files"))
+        {
+            Directory.CreateDirectory("text_files");
+            Log.Information("Создана директории «text_files»!");
+        }
+        else
+        {
+            Log.Information("Проверка директории «text_files» успешна!");
+        }
+        
         foreach (var file in Directory.GetFiles("text_files", "*.txt"))
         {
             string только_название = Path.GetFileNameWithoutExtension(file);
@@ -72,11 +83,23 @@ public class Адаптируемый
         }
         Log.Information("Содержимое списка «Dictionary<string, string> файлы»:\n{@файлы}", файлы);
         
+        
     }
     
     public void Чтение_вывод_папки_txt_консоль()
     {
         Log.Warning("Работает метод Чтение_вывод_папки_txt_консоль()");
+        
+        if (!Directory.Exists("text_files"))
+        {
+            Directory.CreateDirectory("text_files");
+            Log.Information("Создана директории «text_files»!");
+        }
+        else
+        {
+            Log.Information("Проверка директории «text_files» успешна!");
+        }
+        
         foreach (var file in Directory.GetFiles("text_files", "*.txt"))
         {
             Console.WriteLine(File.ReadAllText(file));
