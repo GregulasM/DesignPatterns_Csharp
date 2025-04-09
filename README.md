@@ -9,3 +9,4 @@
 
 * dp_adapter
 * dp_decorator
+* dp_composite
