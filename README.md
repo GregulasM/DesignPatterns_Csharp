@@ -11,3 +11,4 @@
 * dp_decorator
 * dp_composite
 * dp_proxy
+* dp_bridge
