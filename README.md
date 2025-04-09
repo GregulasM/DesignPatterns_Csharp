@@ -12,3 +12,6 @@
 * dp_composite
 * dp_proxy
 * dp_bridge
+* dp_strategy
+
+
