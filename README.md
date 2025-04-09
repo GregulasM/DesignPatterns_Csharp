@@ -10,3 +10,4 @@
 * dp_adapter
 * dp_decorator
 * dp_composite
+* dp_proxy
