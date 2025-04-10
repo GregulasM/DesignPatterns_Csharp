@@ -13,5 +13,5 @@
 * dp_proxy
 * dp_bridge
 * dp_strategy
-
+* dp_observer
 
