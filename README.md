@@ -14,4 +14,5 @@
 * dp_bridge
 * dp_strategy
 * dp_observer
+* dp_chain
 
