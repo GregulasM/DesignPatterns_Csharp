@@ -6,5 +6,18 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    
+    <ItemGroup>
+      <Folder Include="dp_adapter\" />
+      <Folder Include="dp_bridge\" />
+      <Folder Include="dp_chain\" />
+      <Folder Include="dp_composite\" />
+      <Folder Include="dp_decorator\" />
+      <Folder Include="dp_factory\" />
+      <Folder Include="dp_observer\" />
+      <Folder Include="dp_proxy\" />
+      <Folder Include="dp_singleton\" />
+      <Folder Include="dp_strategy\" />
+    </ItemGroup>
 
 </Project>
